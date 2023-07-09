@@ -5,12 +5,12 @@
   $telefono = $_POST['telefono'];
   $mensaje = $_POST['mensaje'];
   // Configura los datos del correo electrónico
-          $destinatario = 'info.joyeriaemeie@gmail.com'; //Aquí debes sustituir tu@email.com por tu email
+          $destinatario = 'i@gmail.com'; //Aquí debes sustituir tu@email.com por tu email
   $asunto = 'Nuevo mensaje de formulario de contacto';
   $cuerpo = "Nombre: $nombre\nEmail: $email\nTeléfono: $telefono\nMensaje: $mensaje";
   $headers = "From: $email\r\nReply-To: $email\r\n";
   // Envía el correo electrónico
   mail($destinatario, $asunto, $cuerpo, $headers);
   // Redirige al usuario a una página de confirmación
-  header('/cursodepanaderiaypizzeria.blogspot.com'); // confirmacion.html debe existir
+  header('/pizzeria.blogspot.com'); // confirmacion.html debe existir
 ?>
