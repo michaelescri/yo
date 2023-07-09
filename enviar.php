@@ -12,5 +12,5 @@
   // Envía el correo electrónico
   mail($destinatario, $asunto, $cuerpo, $headers);
   // Redirige al usuario a una página de confirmación
-  header('https://cursodepanaderiaypizzeria.blogspot.com/'); // confirmacion.html debe existir
+  header('/cursodepanaderiaypizzeria.blogspot.com'); // confirmacion.html debe existir
 ?>
